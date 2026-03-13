@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "voyagr-travel-route-planner",
+  "buildCommand": "node build.js",
+  "outputDirectory": ".",
+  "installCommand": "",
+  "framework": null
+}

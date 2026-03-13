@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# ── Secrets — NEVER commit these ─────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Build artifacts ───────────────────────────────────────────
+dist/
+
+# ── Token backup (created by build.js, restored before commit) 
+script.js.bak
+
+# ── OS / editor junk ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.log
+
+# ── Node ─────────────────────────────────────────────────────
+node_modules/
